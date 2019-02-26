@@ -1,0 +1,68 @@
+extern "C" __declspec(dllexport)void Gauss(double(&m)[], int W, int H, int Frames)
+{
+	double sigma = 1.0;
+	double r;
+	double s = 2.0 * sigma * sigma;
+	double sum = 0.0;
+	vector<vector<vector<long double>>>T3D;
+	vector<vector<vector<long double>>>T3D_res;
+	int l = 0;
+	for (int k = 0; k < Frames; k++)
+	{
+		vector<vector< long double>> table;
+		for (int i = 0; i < W; i++)
+		{
+			vector<long double> row;
+			for (int j = 0; j < H; j++)
+			{
+				row.push_back(m[l]);
+				l++;
+			}
+			table.push_back(row);
+		}
+		T3D.push_back(table);
+	}
+	T3D_res = T3D;
+	long double tab[31];
+	for (int k = 0; k < Frames - 1; k++)
+	{
+		for (int i = 1; i < W - 5; i++)
+		{
+			for (int j = 1; j < H - 5; j++)
+			{
+				vector<double>window;
+				for (int m = -1; m <= 5; m++)
+				{
+					for (int n = -1; n <= 5; n++)
+					{
+						T3D_res[k][m + 1][n + 1] = exp(-(i*i + j * j) / (2 * sigma*sigma)) / (2 * M_PI*sigma*sigma);
+						sum += T3D_res[k][m + 1][n + 1];
+					}
+				}
+				
+
+			}
+		}
+		tab[k] = sum;
+		sum = 0;
+	}
+
+	l = 0;
+	for (int k = 0; k < Frames - 1; k++)
+	{
+		for (int i = 0; i < W; i++)
+		{
+			for (int j = 0; j < H; j++)
+			{
+
+				T3D_res[k][i][j] /= tab[k];
+				if (T3D_res[k][i][j] > 255)
+					T3D_res[k][i][j] = 255;
+				if (T3D_res[k][i][j] < 0)
+					T3D_res[k][i][j] = 0;
+				m[l] = T3D_res[k][i][j];
+				l++;
+			}
+		}
+	}
+}

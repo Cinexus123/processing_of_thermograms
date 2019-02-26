@@ -1,0 +1,86 @@
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Form1.resources
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.dll
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\Marcin\source\repos\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.dll
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb
+C:\Users\Marcin\Downloads\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.function.resources
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.function.resources
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\admin\Downloads\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.function.resources
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\Marcin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.function.resources
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.function.resources
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\Marcin\Desktop\szkola\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe.config
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.exe
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Aplikacja.pdb
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\bin\Debug\Emgu.CV.World.xml
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.function.resources
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.csproj.CopyComplete
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.exe
+C:\Users\Marcin\Desktop\praca (1)\praca\praca\Aplikacja (1)\Aplikacja (1)\Aplikacja\Aplikacja\obj\Debug\Aplikacja.pdb

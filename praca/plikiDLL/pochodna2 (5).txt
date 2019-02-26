@@ -1,0 +1,85 @@
+// dllmain.cpp : Definiuje punkt wejœcia dla aplikacji DLL.
+#include "stdafx.h"
+#include <vector>
+#include<algorithm>
+#include <cmath>
+#include <iomanip>
+#include <iostream>
+#include <complex>
+#include <map>
+using std::complex;
+using std::exp;
+using std::size_t;
+using std::vector;
+using std::cos;
+using std::sin;
+#define M_PI 3.14159265358979323846
+using namespace std;
+BOOL APIENTRY DllMain(HMODULE hModule,
+	DWORD  ul_reason_for_call,
+	LPVOID lpReserved
+)
+{
+	switch (ul_reason_for_call)
+	{
+	case DLL_PROCESS_ATTACH:
+	case DLL_THREAD_ATTACH:
+	case DLL_THREAD_DETACH:
+	case DLL_PROCESS_DETACH:
+		break;
+	}
+	return TRUE;
+}
+//funkcja obliczaj¹ca 2 pochodn¹ sekwencji
+extern "C" __declspec(dllexport)void Derivative2(double(&m)[], int W, int H, int Frames)
+{
+	vector<vector<vector<double>>>T3D;
+	vector<vector<vector<double>>>T3D_res;
+	int l = 0;
+	for (int k = 0; k < Frames; k++)
+	{
+		vector<vector<double>> table;
+		for (int i = 0; i < W; i++)
+		{
+			vector<double> row;
+			for (int j = 0; j < H; j++)
+			{
+				row.push_back(m[l]);
+				l++;
+			}
+			table.push_back(row);
+		}
+		T3D.push_back(table);
+	}
+	T3D_res = T3D;
+
+	for (int k = 0; k < Frames - 2; k++)
+	{
+		for (int i = 0; i < W; i++)
+		{
+			for (int j = 0; j < H; j++)
+			{
+
+				T3D_res[k][i][j] = T3D[k][i][j] - 2*T3D[k + 1][i][j]+ T3D[k + 2][i][j];
+
+			}
+		}
+	}
+
+	l = 0;
+	for (int k = 0; k < Frames - 2; k++)
+	{
+		for (int i = 0; i < W; i++)
+		{
+			for (int j = 0; j < H; j++)
+			{
+
+				m[l] = T3D_res[k][i][j];
+				l++;
+			}
+		}
+	}
+}
+
+
+

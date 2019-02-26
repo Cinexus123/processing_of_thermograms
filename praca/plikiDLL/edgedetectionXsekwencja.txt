@@ -1,0 +1,102 @@
+// dllmain.cpp : Definiuje punkt wejœcia dla aplikacji DLL.
+#include "stdafx.h"
+#include <vector>
+#include<algorithm>
+#include <cmath>
+#include <iomanip>
+#include <iostream>
+#include <complex>
+#include <map>
+using std::complex;
+using std::exp;
+using std::size_t;
+using std::vector;
+using std::cos;
+using std::sin;
+#define M_PI 3.14159265358979323846
+using namespace std;
+BOOL APIENTRY DllMain(HMODULE hModule,
+	DWORD  ul_reason_for_call,
+	LPVOID lpReserved
+)
+{
+	switch (ul_reason_for_call)
+	{
+	case DLL_PROCESS_ATTACH:
+	case DLL_THREAD_ATTACH:
+	case DLL_THREAD_DETACH:
+	case DLL_PROCESS_DETACH:
+		break;
+	}
+	return TRUE;
+}
+//funkcja obliczaj¹ca pochodn¹ sekwencji
+extern "C" __declspec(dllexport)void EdgeDetection1(double(&m)[], int W, int H, int Frames)
+{
+	int a[3][3] = {
+	{-1, 0, 1},
+	{-1, 0, 1},
+	{-1, 0, 1}
+	};
+	vector<vector<vector<double>>>T3D;
+	vector<vector<vector<double>>>T3D_res;
+	double suma = 0;
+	int l = 0;
+	for (int k = 0; k < Frames; k++)
+	{
+		vector<vector<double>> table;
+		for (int i = 0; i < W; i++)
+		{
+			vector<double> row;
+			for (int j = 0; j < H; j++)
+			{
+				row.push_back(m[l]);
+				l++;
+			}
+			table.push_back(row);
+		}
+		T3D.push_back(table);
+	}
+	T3D_res = T3D;
+
+	for (int k = 0; k < Frames - 1; k++)
+	{
+		for (int i = 1; i < W-1; i++)
+		{
+			for (int j = 1; j < H-1; j++)
+			{
+				vector<double>window;
+
+				 suma = T3D_res[k][i - 1][j - 1] * a[0][0] + T3D_res[k][i - 1][j] * a[0][1] + T3D_res[k][i - 1][j + 1] * a[0][2] + T3D_res[k][i][j - 1] * a[1][0] + T3D_res[k][i][j] * a[1][1] + T3D_res[k][i][j + 1] * a[1][2] + T3D_res[k][i + 1][j - 1] * a[2][0] + T3D_res[k][i + 1][j] * a[2][1] + T3D_res[k][i + 1][j + 1] * a[2][2];
+				if (suma <= 0)
+					T3D_res[k][i - 1][j - 1] = 0;
+				else if (suma > 255)
+					T3D_res[k][i - 1][j - 1] = 255;
+				else
+					T3D_res[k][i - 1][j - 1] = suma;
+				window.push_back(T3D_res[k][i - 1][j - 1]);
+
+
+				for (int w = 0; w < window.size(); w++)
+				{
+					T3D_res[k][i - 1][j - 1] = window[w];
+				}
+			}
+		}
+		suma = 0;
+	}
+	l = 0;
+	for (int k = 0; k < Frames - 1; k++)
+	{
+		for (int i = 0; i < W; i++)
+		{
+			for (int j = 0; j < H; j++)
+			{
+
+				m[l] = T3D_res[k][i][j];
+				l++;
+			}
+		}
+	}
+}
+
